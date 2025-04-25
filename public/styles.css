@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#reviewsList .list-group-item {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 1rem;
+}
+
+#reviewsList .list-group-item:last-child {
+    border-bottom: none;
+}
+
+.rating-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.rating-5 { background-color: #28a745; color: white; }
+.rating-4 { background-color: #5cb85c; color: white; }
+.rating-3 { background-color: #ffc107; color: black; }
+.rating-2 { background-color: #fd7e14; color: white; }
+.rating-1 { background-color: #dc3545; color: white; } 
